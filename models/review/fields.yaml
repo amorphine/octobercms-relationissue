@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    user:
+        label: User
+        type: relation
+        nameFrom: phoneWithName
+        #emptyOption: No user
